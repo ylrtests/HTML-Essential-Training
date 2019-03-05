@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>embedded styles</title>
+    <style>
+        h1{ /* H1 --> Selectores */
+            color:blue; 
+        }
+        h2 {
+            color:red;
+            font-weight: normal;
+        }
+        .alert{ /* clase--> override selectors */
+            color: orange;
+        }
+        h2.alert{
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Using embedded styles</h1>
+    <h2 class="alert">Style me using the "style" element.</h2>
+    <h2>Global styles apply to all instances of the elemente.</h2>
+</body>
+
+</html>
